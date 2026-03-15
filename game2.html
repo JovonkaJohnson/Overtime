@@ -341,12 +341,13 @@ justify-content:center;
 <body>
 
 <div id="screenWarning">
-<h2 style="font-size:36px;">⚠ Screen Too Large</h2>
+<h2 style="font-size:36px;">⚠ Bildschirm zu groß</h2>
 <p style="font-size:20px;max-width:500px">
-This game is best played on a smaller screen or mobile device.
+Dieses Spiel spielt man am besten auf einem kleineren Bildschirm oder einem mobilen Gerät.
+
 </p>
 <p style="opacity:.7;margin-top:20px">
-Try resizing your browser window.
+Versuchen Sie, die Größe Ihres Browserfensters zu ändern.
 </p>
 </div>
 
@@ -362,7 +363,7 @@ Try resizing your browser window.
 <div id="goalkeeper"></div>
 <div id="ball"></div>
 
-<div id="scoreDisplay">Score: 0</div>
+<div id="scoreDisplay">Punktestand: 0</div>
 
 <div id="hamburger">
 <div></div>
@@ -373,9 +374,9 @@ Try resizing your browser window.
 <div id="overlay">
 <div id="popup">
 <button id="closePopup">✕</button>
-<h3>Pause Menu</h3>
-<button id="returnHome">Return Home</button>
-<button id="skipCelebration">Go to Celebration</button>
+<h3>Pausemenü</h3>
+<button id="returnHome">Zur Startseite zurückkehren</button>
+<button id="skipCelebration">Zur Feier springen</button>
 </div>
 </div>
 
@@ -571,7 +572,7 @@ b.bottom>hitboxTop &&
 b.top<hitboxTop+hitboxHeight
 ){
 
-showMessage("FAIL!","#ff3333",resetBall)
+showMessage("Fehlversuch!","#ff3333",resetBall)
 return
 
 }
@@ -581,15 +582,15 @@ if(ballInsideGoalHitbox(b,goalHB)){
 score++
 keeperSpeedPx+=10
 
-scoreDisplay.textContent="Score: "+score
+scoreDisplay.textContent="Punktestand: "+score
 
-showMessage("GOAL!","#33ff33",resetBall)
+showMessage("Tor!","#33ff33",resetBall)
 
 return
 }
 
 if(ballY>100){
-showMessage("MISS!","#ff3333",resetBall)
+showMessage("Fehlversuch!","#ff3333",resetBall)
 }
 
 }
