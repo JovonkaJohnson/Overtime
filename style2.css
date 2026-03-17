@@ -119,12 +119,12 @@ body {
 
 .menu-btn:nth-child(1) {
   margin-left: -10%;
-  margin-top: -50%;
+  margin-top: -40%;
 }
 
 .menu-btn:nth-child(2) {
   margin: -10%;
-  margin-top: -40%;
+  margin-top: -30%;
 }
 
 .menu-btn:nth-child(3) {
@@ -139,12 +139,12 @@ body {
 
 .menu-btn:nth-child(5) {
   margin-left: -10%;
-  margin-top: -40%;
+  margin-top: -30%;
 }
 
 .menu-btn:nth-child(6) {
   margin-left: 0%;
-  margin-top: -30%;
+  margin-top: -20%;
 }
 
 .menu-btn:nth-child(7) {
@@ -160,7 +160,7 @@ body {
 
 .menu-btn:nth-child(7) {
   width: 70%;
-  margin-top: 10%;
+  margin-top: 0%;
 }
 
 .menu-btn:nth-child(8) {
